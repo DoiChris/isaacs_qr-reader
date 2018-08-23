@@ -58,7 +58,7 @@ def draw_positions(frame, decoded_objs):
         frame = cv2.rectangle(frame,
                               (left, top),
                               (left + width, height + top),
-                              (0, 0, 168), 2)
+                              (0, 0, 168), 5)
 
 
 if __name__ == '__main__':
